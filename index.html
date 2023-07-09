@@ -15,23 +15,34 @@
    <section>
     <div class="container">
         <div class="container-form">
-            <form action="" id="form-comparacao">
-                <div>
-                    <label for="numero-a">Número A:</label>
-                    <input type="number" id="numero-a" required placeholder="Digite um número"> 
-                </div>
-                <div>
-                    <label for="numero-b">Número B:</label>
-                    <input type="number" id="numero-b" placeholder="Valor">
-                </div>
-            </form>
+            <p class="regra-comparacao">Escreva um número A tal que A seja menor que B</p>
+            
+                <form action="" id="form-comparacao">
+                    <table> 
+                        <tr>
+                            <td><label for="numero-a">Número A:</label></td>
+                            <td><input type="number" id="numero-a"  required placeholder="Valor para A"> </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><label for="numero-b">Número B:</label></td>
+                            <td><input type="number" id="numero-b" required placeholder="Valor para B"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td><button class="btn-comparar" type="submit">Comparar</button> </td>
+                        </tr> 
+                    </table> 
+                </form>
+            
             <p class="mensagem">
                
             </p>
         </div>
     </div>
    </section>
-   <script src=".static/js/main.js"></script>
+   <script src="./static/js/main.js"></script>
   
 </body>
 </html>

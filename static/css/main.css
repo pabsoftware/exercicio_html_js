@@ -32,11 +32,52 @@ section .container {
     width: 400px;
     margin-top: 20px;
     align-items: center;
+    border-radius: 10px;
 }
 
 input{
-    position: absolute;
-    padding: 5px;
-    width: 280px;
     
+    padding: 8px;
+    width: 250px;
+    
+    
+}
+label {
+    padding-top: 8px;
+}
+
+input.error {
+    border: 1px;
+    border-color: red;
+    outline-color: red;
+}
+
+form {
+    padding: 8px;
+}
+
+form button {
+    background-color: #349118;
+    color: #ecf1f1;
+    font-style: italic;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    border-bottom: 8px;
+}
+
+.mensagem{
+    background-color: #4df01c;
+    padding: 8px;
+    margin-top: 16px;
+    display: none;
+}
+
+.regra-comparacao{
+    margin-bottom: 16px;
+}
+table td {
+    padding-bottom: 8px;
+    margin-bottom: 10px;
 }
